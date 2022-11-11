@@ -1,0 +1,16 @@
+build/bootloader-prefix
+build/CMakeFiles
+build/config
+build/esp-idf
+
+build/bootloader/esp-idf/
+build/bootloader/CMakeFiles/
+build/bootloader/config/
+
+
+
+sdkconfig.old
+.settings
+*.iml
+*.swp
+*.log
