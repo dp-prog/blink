@@ -1,4 +1,3 @@
-//
 /* Blink Example
 
    This example code is in the Public Domain (or CC0 licensed, at your option.)
@@ -74,6 +73,7 @@ void app_main(void)
     /* Configure the peripheral according to the LED type */
     configure_led();
 
+//    printf(PROJECT_VER);
     while (1) {
         ESP_LOGI(TAG, "Turning the LED %s!", s_led_state == true ? "ON" : "OFF");
         blink_led();
